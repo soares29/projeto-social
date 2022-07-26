@@ -8,7 +8,6 @@
 html, body {
     height: 100vh; /* Altura máxima */
     width: 100vw;   /* Largura máxima */
-    background-color: lightpink;
 }
 
 body {
@@ -16,6 +15,7 @@ body {
     background-size: cover; /* Cobre a tela inteira */
     background-attachment: fixed; /* Tira a rolagem */
 }
+
 main {
     height: 100vh;
     position: relative;
@@ -27,8 +27,15 @@ section#telefone {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    /* background-color: black; */
     height: 627px;
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
+}
+
+iframe#tela {
+    position: relative;
+    top: 81px;
+    left: 23px;
+    width: 266px;
+    height: 470px;
 }
