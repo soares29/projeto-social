@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar { /* Esconde a barra de rolagem */
+    width: 0px;
+    height: 0px;
+}
+
+img {
+    width: 100vw; /* Cobrir 100% da tela */
+}
+
+a {
+    display: block;  /* Alinha o link embaixo da imagem */
+    font-weight: bolder;
+    background-color: darkred;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgba(255, 0, 0, 0.685);
+}  
